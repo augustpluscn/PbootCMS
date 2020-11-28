@@ -20,7 +20,7 @@
 <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg shadow-sm">
   <div class="container">
 	  	<a class="navbar-brand my-1" href="{pboot:sitepath}/">
-	      <img src="{pboot:sitelogo}" class="logo-sm-height"  height="50">
+	      <img src="{pboot:sitelogo}" class="logo-sm-height"  height="80">
 	    </a>
 	    
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
 	          </li>
 	          {pboot:nav num=10 parent=0}
 	              <li class="nav-item {pboot:if('[nav:scode]'=='{sort:tcode}')}active{/pboot:if}">
-	                <a class="nav-link" href="[nav:link]">[nav:name]</a>
+	                <a class="nav-link" style='font-size: 24px;' href="[nav:link]">[nav:name]</a>
 	              </li>
 	          {/pboot:nav}
 	      </ul>
